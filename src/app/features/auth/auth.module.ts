@@ -7,7 +7,9 @@ import { LoginComponent } from './pages/login/login.component';
 import { RegisterComponent } from './pages/register/register.component';
 import { EmailConfirmComponent } from './pages/email-confirm/email-confirm.component';
 import { AuthFormComponent } from './components/auth-form/auth-form.component';
-
+import { MatInputModule } from '@angular/material/input';
+import {MatButtonModule} from '@angular/material/button';
+import {MatToolbarModule} from '@angular/material/toolbar';
 
 @NgModule({
   declarations: [
@@ -19,7 +21,10 @@ import { AuthFormComponent } from './components/auth-form/auth-form.component';
   ],
   imports: [
     CommonModule,
-    AuthRoutingModule
+    AuthRoutingModule,
+    MatInputModule,
+    MatButtonModule,
+    MatToolbarModule
   ]
 })
 export class AuthModule { }
