@@ -6,6 +6,7 @@ import { AuthComponent } from './auth.component';
 import { LoginComponent } from './pages/login/login.component';
 import { RegisterComponent } from './pages/register/register.component';
 import { EmailConfirmComponent } from './pages/email-confirm/email-confirm.component';
+import { AuthFormComponent } from './components/auth-form/auth-form.component';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { EmailConfirmComponent } from './pages/email-confirm/email-confirm.compo
     AuthComponent,
     LoginComponent,
     RegisterComponent,
-    EmailConfirmComponent
+    EmailConfirmComponent,
+    AuthFormComponent
   ],
   imports: [
     CommonModule,
